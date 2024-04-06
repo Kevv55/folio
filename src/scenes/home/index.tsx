@@ -1,6 +1,4 @@
 import { SelectedPage } from "@/shared/types"
-import useMediaQuery from "@/hooks/useMediaQuery";
-import ActionButton from "@/shared/ActionButton";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { motion } from "framer-motion";
 import MainPic from "@/assets/MainPic.png";
@@ -12,7 +10,6 @@ type Props = {
 }
 
 const Home = ({setSelectedPage}: Props) => {
-    const isAboveMediumScreens = useMediaQuery("(min-width:1060px)");
     {/*Whats happening here:
     md:h-full is the width taking the full horizontal space */}
   return (
