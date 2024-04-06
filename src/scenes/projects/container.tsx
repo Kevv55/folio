@@ -10,7 +10,7 @@ type Props = {
 const Container = ({image, title, description, path}: Props) => {
   return (
     <motion.div className="mt-5 rounded-md border-2 border-gray-100 px-5 py-16 text-center w-1/3 mx-auto">
-        <div className="mb-4 flex justify-center flex">
+        <div className="mb-4 flex justify-center">
             <div>
                 <a href={path}>
             <img src={image} alt={`${image}`} width={250} height={200}/>

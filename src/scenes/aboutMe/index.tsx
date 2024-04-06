@@ -1,6 +1,5 @@
-import ActionButton from "@/shared/ActionButton";
 import HText from "@/shared/HText";
-import { BenefitType, SelectedPage } from "@/shared/types";
+import {SelectedPage } from "@/shared/types";
 
 import { motion } from "framer-motion";
 import ReactP from "@/assets/ReactP.png";

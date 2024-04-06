@@ -1,21 +1,11 @@
-import { BenefitType, SelectedPage } from '@/shared/types'
-import React from 'react'
-import Benefit from './Benefit'
+import { BenefitType} from '@/shared/types'
 import { motion } from 'framer-motion';
-import {
-    HomeModernIcon,
-    UserGroupIcon,
-    AcademicCapIcon,
-  } from "@heroicons/react/24/solid";
 import GymWebsite from "@/assets/GymWebsite.png"
 import Container from './container';
 import HText from '@/shared/HText';
 import classification_performance from "@/assets/classification_performance.png"
 import CantStop from "@/assets/CantStop.png"
 
-type Props = {
-    setSelectedPage: (value: SelectedPage) => void;
-}
 
 const benefits: Array<BenefitType> = [
     {
@@ -50,7 +40,7 @@ const benefits: Array<BenefitType> = [
     },
   };
 
-const Projects = ({setSelectedPage}: Props) => {
+const Projects = () => {
   return (
     <section id='projects' className='w-4/5 mx-auto'>
         <div className='ml-10'>
