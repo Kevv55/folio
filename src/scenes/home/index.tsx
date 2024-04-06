@@ -41,7 +41,7 @@ const Home = ({setSelectedPage}: Props) => {
                                     // Same substring at the start will only be typed once, initially
                                     'I am a Full-Stack Developer',
                                     1000,
-                                    'I am a Equity Anlayst',
+                                    'I am a Equity Analyst',
                                     1000,
                                     'I am a Aspiring ML Practictioner',
                                     1000,
