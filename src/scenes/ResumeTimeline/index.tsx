@@ -62,7 +62,7 @@ const Timeline = () => {
                     Click on the button below to access my full resume
                   </p>
                   <div>
-            <button type="button" onClick={(e) => {e.preventDefault(); window.location.href='http://google.com'}} className="rounded-md bg-secondary-500 px-10 py-2 hover:bg-primary-500 hover:text-white">Resume</button>
+            <button type="button" onClick={(e) => {e.preventDefault(); window.location.href='https://drive.google.com/file/d/1GGhtNrJCQhu6qv5XU77VNYq-bRUlsqL_/view?usp=sharing'}} className="rounded-md bg-secondary-500 px-10 py-2 hover:bg-primary-500 hover:text-white">Resume</button>
             </div>
                 </motion.div>
             </div>
